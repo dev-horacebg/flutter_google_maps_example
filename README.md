@@ -1,16 +1,23 @@
-# flutter_maps_example
+# Flutter Maps Example
 
-An example detailing how to  use a Google Map in a Flutter application.
+A quick example detailing how to use a Google Map in a Flutter app.
 
-## Getting Started
+## What this app does
 
-This project is a starting point for a Flutter application.
+Puts a bunch of indicators on a map, centred around London.
+Provides a means to change the `CameraPosition` to focus on one of a
+defined list of landmarks across London.
 
-A few resources to get you started if this is your first Flutter project:
+## Who this is for
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+Anyone interested in using a [Google Map in a Flutter application](https://pub.dartlang.org/packages/google_maps_flutter).
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Setup
+
+If you want to run the app as-is, don't forget to change both of the `ApiKey` values in `AppDelegate.swift` and `main/AndroidManifest.xml`to use your own Google Maps API Key which you can get from [here](https://cloud.google.com/maps-platform/).
+
+## Screenshots
+
+![flutter_map](https://user-images.githubusercontent.com/40957572/55687164-c860d600-5961-11e9-9e69-0eeb04219292.png)
+
+![flutter_map_select](https://user-images.githubusercontent.com/40957572/55687166-ceef4d80-5961-11e9-8f2b-ccb364752b4c.png)
